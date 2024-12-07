@@ -11,6 +11,6 @@ import json
 # 4: Print the top 10 most significant events, with the significance value of each
 
 # open the data file and load the JSON
-with open("../../30DayQuakes.json", "r") as datafile:
+with open("/Users/rohanmanisha/Library/Mobile Documents/com~apple~CloudDocs/3 Resources/Training/Git/GitHub/advanced-python-working-with-data-4312001/30DayQuakes.json", "r") as datafile:
     data = json.load(datafile)
     
